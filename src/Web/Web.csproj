@@ -14,6 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Ardalis.ListStartupServices" Version="1.1.4" />
     <PackageReference Include="Ardalis.Specification" Version="7.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
